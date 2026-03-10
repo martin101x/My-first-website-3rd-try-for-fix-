@@ -8,33 +8,25 @@
 </head>
 <body>
 
-<!-- 
-    GRID WRAPPER
-    This wraps the entire page and will be turned into a CSS Grid layout.
--->
 <div class="grid-container">
 
-    <!-- FLEX CONTAINER #1: Navigation Bar -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">Martin's Website</div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="car.html">Cars</a></li>
             <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="#top">Back to Top</a></li>
         </ul>
     </nav>
 
-    <!-- MAIN CONTENT AREA -->
+    <!-- Main Content -->
     <main class="main-content">
-
-        <!-- About Me Section -->
         <section>
             <h1>About Me</h1>
             <p>Hello! My name is Martin. This is fun facts about me.</p>
         </section>
 
-        <!-- Hobbies Section -->
         <section>
             <h2>My Hobbies</h2>
             <ul>
@@ -44,15 +36,13 @@
                 <li>Swimming</li>
             </ul>
 
-            <!-- FLEX CONTAINER #2: Hobby Images -->
             <div class="image-row">
-                <img src="batman.jpeg" alt="Batman comic image">
-                <img src="jog.jpg" alt="jogging image">
-                <img src="swim.jpg" alt="swim image">
+                <img src="batman.jpeg" alt="Batman comic image" class="hobby-img">
+                <img src="jog.jpg" alt="Jogging image" class="hobby-img">
+                <img src="swim.jpg" alt="Swimming image" class="hobby-img">
             </div>
         </section>
 
-        <!-- Cars Section -->
         <section>
             <h2>Favorite Cars</h2>
             <ul>
@@ -61,36 +51,23 @@
                 <li>Lamborghini Centenario</li>
             </ul>
 
-            <!-- FLEX CONTAINER #3 -->
             <div class="image-row">
-                <img src="koenigsegg-agera.jpg" alt="Koenigsegg Agera Car Photo">
-                <img src="Bugatti Veyron.jpg" alt="Bugatti Veyron car Photo">
-                <img src="Centenario lamborghini.jpg" alt="Lamborghini car Photo">
+                <img src="koenigsegg-agera.jpg" alt="Koenigsegg Agera Car Photo" class="car-image">
+                <img src="Bugatti Veyron.jpg" alt="Bugatti Veyron Car Photo" class="car-image">
+                <img src="Centenario lamborghini.jpg" alt="Lamborghini Car Photo" class="car-image">
             </div>
-
-            <p>
-                Check out more about Koenigsegg cars
-                <a href="https://www.koenigsegg.com" target="_blank">here</a>.
-            </p>
-
-            <p>
-                Visit the official Batman website
-                <a href="https://www.dc.com/characters/batman"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                   here
-                </a>.
-            </p>
         </section>
-
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2026 My First Website. By Martin Bauzon - All Rights Reserved</p>
+        <p><a href="#top">Back to Top</a></p>
     </footer>
 
 </div>
+
+<a id="top"></a>
 
 </body>
 </html>

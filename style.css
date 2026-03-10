@@ -193,3 +193,8 @@ ul {
         font-size: 1.3rem;
     }
 }
+.hobby-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
